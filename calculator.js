@@ -16,6 +16,7 @@ app.post('/',function(req,res){
     res.send(result.toString());
 });
 
+//BMI CALC PART
 app.get('/bmicalculator',function(req,res){
     res.sendFile(__dirname+'/bmiCalculator.html');
 });
